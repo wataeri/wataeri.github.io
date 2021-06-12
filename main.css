@@ -1,0 +1,130 @@
+/* Global */
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: #E8EBE9;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+@font-face {
+    font-family: ButlerBold;
+    src: url(Butler-Medium.woff);
+  }
+  @font-face {
+    font-family: ButlerMedium;
+    src: url(Butler-Bold.woff);
+  }
+
+
+html {
+    font-family: ButlerBold, ButlerMedium;
+    font-weight: 100;
+}
+body {
+    background: transparent;
+    width: 60%;
+    margin: auto;
+}
+
+.grey {
+    color: #707070;
+}
+h1 {
+    background: transparent;
+    font-size: 160px;
+    font-weight: 400;
+    color: #355161;
+    letter-spacing: 2px;
+}
+h2 {
+    background: transparent;
+    font-size: 25px;
+    font-weight: 400;
+    color: #707070;
+    margin-top: -20px;
+    margin-left: 10px;
+}
+h3 {
+    font-size: 30px;
+    font-weight: 400;
+    color: #355161;
+    background: transparent;
+}
+h5 {
+    background: transparent;
+    font-size: 40px;
+    font-weight: 500;
+    margin: 10px;
+    color: #355161;
+}
+P {    
+    background: transparent;
+    color:#355161;
+    opacity: 0.8;
+    font-weight: 100;
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+/* Landing */
+.landing {
+    background: transparent;
+    height:100vh;
+    position:relative;
+}
+.landingWrapper {
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+}
+
+ul {
+    background: transparent;
+    list-style: none;
+    margin-top: 30px;
+    line-height: 30px;
+}
+.landingL {
+    margin-top: 4em;
+    margin-left: -9em;
+    background: transparent;
+}
+.scroll {
+    position:fixed;
+    bottom:180px;
+    left: 0%;
+    right: 0%;
+    margin:auto;
+    background: transparent;
+}
+
+.bgTri {
+    background: transparent;
+    position: absolute; 
+    bottom: -20px; 
+    right: -300px;
+    z-index: -1;
+}
+.pic {
+    background: transparent;
+    position:absolute;
+    bottom: 20px;
+    right: 750px;
+}
+
+.projectPages {
+    background: transparent;
+    position: absolute;
+    bottom: 40px;
+    left: 145px;
+    letter-spacing: 3px;
+}
