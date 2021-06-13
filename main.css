@@ -36,6 +36,7 @@ body {
 }
 
 .grey {
+    background: transparent;
     color: #707070;
 }
 h1 {
@@ -59,6 +60,14 @@ h3 {
     color: #355161;
     background: transparent;
 }
+
+h4 {
+    background: transparent;
+    font-size: 25px;
+    font-weight: 400;
+    color: #3b3b3b;
+}
+
 h5 {
     background: transparent;
     font-size: 40px;
@@ -66,6 +75,14 @@ h5 {
     margin: 10px;
     color: #355161;
 }
+
+h6 {
+    background: transparent;
+    font-size: 80px;
+    font-weight: 400;
+    color: #E8EBE9;
+}
+
 P {    
     background: transparent;
     color:#355161;
@@ -73,6 +90,34 @@ P {
     font-weight: 100;
     margin-top: 10px;
     font-size: 20px;
+}
+
+/* Navigation */
+.nav {
+    background: transparent;
+    color: #3b3b3b;
+}
+.aboutMe {
+    background: transparent;
+    text-align: right;
+    position: absolute;
+    margin-top: 1.5%;
+    right: 150px;
+    top: 25px;
+}
+.contactMe {
+    background: transparent;
+    text-align: right;
+    position: absolute;
+    margin-top: 1.5%;
+    right: 50px;
+    top: 25px;
+}
+.aboutMe a {
+    text-decoration: none;
+}
+.contactMe a {
+    text-decoration: none;
 }
 
 /* Landing */
@@ -127,4 +172,33 @@ ul {
     bottom: 40px;
     left: 145px;
     letter-spacing: 3px;
+}
+
+.landingL a {
+    text-decoration: none;
+}
+.landingL a:hover {
+    background: transparent;
+    color: #3b3b3b;
+}
+.landingTri {
+    background: transparent;
+}
+
+.landingTri a{
+    text-decoration: none;
+}
+.resume {
+    background: transparent;
+    position: absolute;
+    bottom: 200px;
+    right: -270px;
+    letter-spacing: 7px;
+}
+.portfolio {
+    background: transparent;
+    position: absolute;
+    bottom: 80px;
+    right: -250px;
+    letter-spacing: 9px;
 }
