@@ -6,7 +6,7 @@
     outline: 0;
     font-size: 100%;
     vertical-align: baseline;
-    background: #E8EBE9;
+    background: #ffff;
 }
 
 .clearfix::after {
@@ -24,9 +24,14 @@
     src: url(Butler-Bold.woff);
   }
 
+  @font-face {
+      font-family: VensfolkRegular;
+      src: url(VensfolkRegular.ttf);
+  }
+
 
 html {
-    font-family: ButlerBold, ButlerMedium;
+    font-family: VensfolkRegular, ButlerBold, ButlerMedium;
     font-weight: 100;
 }
 body {
@@ -35,28 +40,29 @@ body {
     margin: auto;
 }
 
-.grey {
-    background: transparent;
-    color: #707070;
-}
+/* Headers */
+
 h1 {
     background: transparent;
     font-size: 160px;
+    font-family: VensfolkRegular;
     font-weight: 400;
-    color: #355161;
+    color: #1E4494;
     letter-spacing: 2px;
 }
 h2 {
     background: transparent;
     font-size: 25px;
     font-weight: 400;
-    color: #707070;
+    font-family: ButlerMedium;
+    color: #212A4E;
     margin-top: -20px;
     margin-left: 10px;
 }
 h3 {
     font-size: 30px;
     font-weight: 400;
+    font-family: ButlerMedium;
     color: #355161;
     background: transparent;
 }
@@ -65,27 +71,30 @@ h4 {
     background: transparent;
     font-size: 25px;
     font-weight: 400;
-    color: #3b3b3b;
+    font-family: ButlerMedium;
+    color: #212A4E;
 }
 
 h5 {
     background: transparent;
     font-size: 40px;
     font-weight: 500;
+    font-family: ButlerMedium;
     margin: 10px;
-    color: #355161;
+    color: #212A4E;
 }
 
 h6 {
     background: transparent;
     font-size: 80px;
     font-weight: 400;
-    color: #E8EBE9;
+    font-family: VensfolkRegular;
+    color: #1E4494;
 }
 
 P {    
     background: transparent;
-    color:#355161;
+    color:#1E4494;
     opacity: 0.8;
     font-weight: 100;
     margin-top: 10px;
@@ -96,13 +105,14 @@ P {
 .nav {
     background: transparent;
     color: #3b3b3b;
+    text-decoration: none;
 }
 .aboutMe {
     background: transparent;
     text-align: right;
     position: absolute;
     margin-top: 1.5%;
-    right: 150px;
+    right: 50px;
     top: 25px;
 }
 .contactMe {
@@ -111,94 +121,53 @@ P {
     position: absolute;
     margin-top: 1.5%;
     right: 50px;
-    top: 25px;
+    top: 115px;
 }
+
+.myResume {
+    background: transparent;
+    text-align: right;
+    position: absolute;
+    margin-top: 1.5%;
+    right: 50px;
+    top: 70px;
+}
+
 .aboutMe a {
     text-decoration: none;
 }
 .contactMe a {
     text-decoration: none;
 }
+.myResume a {
+    text-decoration: none;
+}
 
 /* Landing */
 .landing {
-    background: transparent;
+    background: none;
     height:100vh;
     position:relative;
 }
 .landingWrapper {
-    background: transparent;
+    background: none;
     display: flex;
     justify-content: space-between;
 }
 
-ul {
-    background: transparent;
-    list-style: none;
-    margin-top: 30px;
-    line-height: 30px;
-}
 .landingL {
-    margin-top: 4em;
-    margin-left: -9em;
-    background: transparent;
-}
-.scroll {
-    position:fixed;
-    bottom:180px;
-    left: 0%;
-    right: 0%;
-    margin:auto;
-    background: transparent;
-}
-
-.bgTri {
-    background: transparent;
-    position: absolute; 
-    bottom: -20px; 
-    right: -300px;
-    z-index: -1;
-}
-.pic {
-    background: transparent;
+    margin-top: 120px;
+    margin-left: -90px;
     position:absolute;
-    bottom: 20px;
-    right: 750px;
+    background: transparent;
 }
 
-.projectPages {
-    background: transparent;
-    position: absolute;
-    bottom: 40px;
-    left: 145px;
+.projectPages{
+    background: none;
+    position:absolute;
+    bottom: -150px;
+    left: 500px;
     letter-spacing: 3px;
-}
-
-.landingL a {
-    text-decoration: none;
-}
-.landingL a:hover {
-    background: transparent;
-    color: #3b3b3b;
-}
-.landingTri {
-    background: transparent;
-}
-
-.landingTri a{
-    text-decoration: none;
-}
-.resume {
-    background: transparent;
-    position: absolute;
-    bottom: 200px;
-    right: -270px;
-    letter-spacing: 7px;
-}
-.portfolio {
-    background: transparent;
-    position: absolute;
-    bottom: 80px;
-    right: -250px;
-    letter-spacing: 9px;
+    top: 320px;
+    margin-right: 200px;
 }
