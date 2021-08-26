@@ -107,7 +107,8 @@ P {
     color: #3b3b3b;
     text-decoration: none;
 }
-.aboutMe {
+
+.logo {
     background: transparent;
     text-align: right;
     position: absolute;
@@ -115,24 +116,45 @@ P {
     right: 50px;
     top: 25px;
 }
-.contactMe {
-    background: transparent;
+
+.aboutMe {
+    background: transparent!important;
     text-align: right;
     position: absolute;
     margin-top: 1.5%;
     right: 50px;
-    top: 115px;
+    top: 160px;
+}
+
+.contactMe {
+    background: transparent!important;
+    text-align: right;
+    position: absolute;
+    margin-top: 1.5%;
+    right: 50px;
+    top: 285px;
 }
 
 .myResume {
-    background: transparent;
+    background: transparent!important;
     text-align: right;
     position: absolute;
     margin-top: 1.5%;
     right: 50px;
-    top: 70px;
+    top: 220px;
 }
 
+.textCol {
+    color:#212A4E
+}
+
+a:hover span {
+    color: #ea6175!important;
+}
+
+.logo a {
+    text-decoration: none;
+}
 .aboutMe a {
     text-decoration: none;
 }
@@ -150,7 +172,7 @@ P {
     position:relative;
 }
 .landingWrapper {
-    background: none;
+    background: transparent!important;
     display: flex;
     justify-content: space-between;
 }
@@ -159,15 +181,21 @@ P {
     margin-top: 120px;
     margin-left: -90px;
     position:absolute;
-    background: transparent;
+    background: transparent!important;
 }
 
-.projectPages{
-    background: none;
+.myPortfolio{
+    margin-top: 30px;
+    margin-left: 40%;
     position:absolute;
-    bottom: -150px;
-    left: 500px;
-    letter-spacing: 3px;
-    top: 320px;
-    margin-right: 200px;
+    background: transparent!important;
 }
+
+/* FIX LATER
+.strokeHov:hover span{
+    color: white!important;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+*/
+
+
